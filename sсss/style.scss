@@ -214,6 +214,9 @@ margin-right: 170px;
 
 
 @media(max-width:767px){
+    .header{
+        padding-bottom:40px ;
+    }
     .header__top-title{
         max-width: 200px;
     }
@@ -291,9 +294,7 @@ margin-right: 170px;
     
 }
 @media(max-width:500px){   
-  .header{
-      padding-bottom:40px ;
-  }
+ 
     .top__content-title{
         font-size: 48px;    
     }
