@@ -260,22 +260,19 @@ body {
   -webkit-transition: all .3s;
   transition: all .3s;
   border-radius: 8px;
+  color: #ffffff;
+  font-size: 28px;
 }
 
 .top__btn:hover {
   background-color: #ef4602;
 }
 
-.top__btn-link {
-  color: #ffffff;
-  font-size: 28px;
-  text-align: center;
-}
-
 @media (max-width: 1100px) {
   .header {
     padding-top: 10px;
     background: none;
+    padding-bottom: 40px;
   }
   .header__inner {
     margin-right: 0px;
@@ -311,9 +308,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  .header {
-    padding-bottom: 40px;
-  }
   .header__top-title {
     max-width: 200px;
   }
@@ -403,13 +397,8 @@ body {
   .top__center-text {
     font-size: 20px;
   }
-  .top__btn-link {
-    font-size: 24px;
-  }
   .top__btn {
     height: 80px;
-  }
-  .top__btn-link {
     font-size: 24px;
     padding: 0 5px;
   }

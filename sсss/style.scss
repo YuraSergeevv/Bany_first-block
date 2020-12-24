@@ -155,16 +155,13 @@ margin-right: 170px;
     background-color: #fc5f20;
     transition: all .3s;
     border-radius: 8px;
-    &:hover{
-        background-color:#ef4602;
-    }
-}
-.top__btn-link{
     color: #ffffff;
     font-size: 28px;
-    text-align: center;
-}
+    &:hover{
+        background-color:#ef4602;
 
+    }
+}
 
 
 
@@ -174,6 +171,8 @@ margin-right: 170px;
     .header{
         padding-top: 10px;
         background:none;
+        padding-bottom:40px;
+
     }
     .header__inner{
         margin-right: 0px;
@@ -214,9 +213,6 @@ margin-right: 170px;
 
 
 @media(max-width:767px){
-    .header{
-        padding-bottom:40px ;
-    }
     .header__top-title{
         max-width: 200px;
     }
@@ -303,18 +299,15 @@ margin-right: 170px;
        font-size: 20px;
    }
 
-   .top__btn-link{
-    font-size: 24px;
-}
+
 .top__btn{
     height: 80px;
-}
-.top__btn-link{
     font-size: 24px;
     padding: 0 5px;
 }
-
 }
+
+
 
 @media(max-width:420px){ 
     .header__content{
