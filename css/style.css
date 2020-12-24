@@ -97,7 +97,6 @@ body {
   padding-top: 10px;
   font-size: 28px;
   background: url(../images/bg-tree.png) top right no-repeat, url(../images/bg-house.png) bottom right no-repeat;
-  padding-bottom: 40px;
 }
 
 .header__inner {
@@ -395,6 +394,9 @@ body {
 }
 
 @media (max-width: 500px) {
+  .header {
+    padding-bottom: 40px;
+  }
   .top__content-title {
     font-size: 48px;
   }
